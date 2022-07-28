@@ -27,8 +27,8 @@ export function Home() {
       <nav className={style.NavRed}>
         <Form>
           <Row>
-            <Col className="text-center" lg={4} md={4} sm={4} xs={2}></Col>
-            <Col className="text-center" lg={5} md={5} sm={5} xs={8}>
+            <Col className="text-center" lg={4} md={4} sm={1} xs={0}></Col>
+            <Col className="text-center" lg={5} md={5} sm={7} xs={8}>
               <Form.Control
                 autoComplete="off"
                 onChange={handleChange}
@@ -50,14 +50,14 @@ export function Home() {
 
       <Container>
         <Row>
-          <Col className="text-center" lg={2} md={2} sm={2} xs={2}>
+          <Col className="text-center" lg={2} md={2} sm={12} xs={12}>
             <h1>Result:</h1>
           </Col>
-          <Col className="text-center" lg={10} md={10} sm={10} xs={10}>
+          <Col className="text-center" lg={10} md={10} sm={9} xs={9}>
             {textAcc2?.map((e) =>
               e.palindromo === "YES" ? (
                 <Row>
-                  <Col className="text-center" lg={10} md={10} sm={10} xs={10}>
+                  <Col className="text-center" lg={10} md={10} sm={9} xs={9}>
                     <Form.Control
                       value={e.response}
                       type="text"
@@ -71,7 +71,7 @@ export function Home() {
                 </Row>
               ) : (
                 <Row>
-                  <Col className="text-center" lg={10} md={10} sm={10} xs={10}>
+                  <Col className="text-center" lg={10} md={10} sm={9} xs={9}>
                     <Form.Control
                       value={e.response}
                       type="text"
