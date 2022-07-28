@@ -1,7 +1,8 @@
 import axios from "axios"
 
 export const POST_IECHO = 'POST_IECHO'
-const url = process.env.REACT_APP_API || 'http://localhost:3001'
+const url = 'https://copywritechallenge.herokuapp.com/' 
+
 
 
 export const postIecho = (text) => {
