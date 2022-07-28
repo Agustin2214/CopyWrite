@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node app",
+    "start": "node app.js",
     "test": "jest --runInBand --force-exit"
   },
   "dependencies": {
