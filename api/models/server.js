@@ -7,12 +7,12 @@ const cors = require("cors");
 class Server{
     constructor(){
         this.app = express();
-        this.port = 3001
+        this.port = process.env.PORT || 3001
 
 
 //path
         this.iecho  = '/iecho'
-
+        
 
 
  
