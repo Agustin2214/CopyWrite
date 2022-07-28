@@ -9,6 +9,8 @@ export function Home() {
   const dispatch = useDispatch();
   const textAcc2 = useSelector((state) => state.textAcc);
   const [text, setText] = useState("");
+  
+
 
   function handleChange(e) {
     setText(e.target.value);
