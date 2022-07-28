@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export const POST_IECHO = 'POST_IECHO'
-const url = 'https://copywritechallenge.herokuapp.com/' 
+const url = 'https://copywritechallenge.herokuapp.com' 
 
 
 

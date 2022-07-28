@@ -6,6 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './Redux/store/store';
+dotenv.config();
+
+
+axios.defaults.baseURL = process.env.REACT_APP_API || 'https://http://localhost:3001'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
